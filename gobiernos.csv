@@ -1,0 +1,6 @@
+country_code,country_name,start_date,end_date,political_party,president_name,president_lastname
+BR,Brazil,2011-01-01,2016-08-31,Partido dos Trabalhadores (PT),Dilma,Rousseff
+BR,Brazil,2016-08-31,2019-01-01,Movimento Democrático Brasileiro (MDB),Michel,Temer
+BR,Brazil,2019-01-01,2023-01-01,Partido Liberal (PL),Jair,Bolsonaro
+BR,Brazil,2023-01-01,2029-12-31,Partido dos Trabalhadores (PT),Luiz Inácio,Lula da Silva
+
