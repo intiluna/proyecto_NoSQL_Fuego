@@ -30,4 +30,4 @@ Los datos se modelan utilizando documentos en MongoDB, lo que permite manejar da
 
 ## Contribuciones
 
-¡Las contribuciones son bienvenidas! Si tienes sugerencias de mejoras, correcciones de errores o deseas agregar nuevas funcionalidades, no dudes en enviar una solicitud de extracción.
+¡Las contribuciones son bienvenidas! Si tienes sugerencias de mejoras, correcciones de errores o deseas agregar nuevas funcionalidades, no dudes en enviar una "pull request".
