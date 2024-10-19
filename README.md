@@ -1,33 +1,31 @@
-# Proyecto de Demostración de NoSQL y Modelado de Datos con MongoDB
+# NoSQL Demonstration Project and Data Modeling with MongoDB
 
-Este proyecto demuestra el uso de MongoDB para gestionar datos relacionados con la detección de incendios forestales a partir de datos de satélite MODIS Terra/Aqua. Se simula el escenario de un centro de investigación ambiental que requiere una infraestructura eficiente para almacenar y analizar datos.
+This project demonstrates the use of MongoDB to manage data related to wildfire detection from MODIS Terra/Aqua satellite data. It simulates a scenario of an environmental research center that requires an efficient infrastructure to store and analyze data.
 
-## Contexto
+## Context
 
-En este proyecto, se emplea MongoDB para modelar y gestionar datos provenientes de múltiples fuentes, como datos de satélite MODIS, límites de países, datos de gobiernos y reportes de eventos. La estructura de los datos puede variar y evolucionar con el tiempo.
+In this project, MongoDB is used to model and manage data from multiple sources, such as MODIS satellite data, country boundaries, government data, and event reports. The data structure may vary and evolve over time.
 
-## Requerimientos del Sistema
+## System Requirements
 
-Para ejecutar este proyecto, necesitarás:
+To run this project, you will need:
 
-- MongoDB 
+- MongoDB
 - Python 3
-- Datos a descargar en: "https://drive.google.com/drive/folders/1ustCKZTFa43lTiO8X_H_8PCr5zHWhzzv?usp=sharing"
-- Bibliotecas de Python: pymongo, pandas, numpy,pathlib, matplotlib, datetime, time,json, folium
+- Data to download at: "https://drive.google.com/drive/folders/1ustCKZTFa43lTiO8X_H_8PCr5zHWhzzv?usp=sharing"
+- Python libraries: pymongo, pandas, numpy, pathlib, matplotlib, datetime, time, json, folium
 
+## Project Setup
 
+1. Clone this repository to your local machine.
+2. Make sure MongoDB is running on your system.
+3. Run the `clean_preprocess_fire.ipynb` notebook to preprocess the data.
+4. Run the `Proyecto_NoSQL_IntiLuna.ipynb` notebook to perform data insertion, index creation, and queries.
 
-## Configuración del Proyecto
+## Data Structure
 
-1. Clona este repositorio en tu máquina local.
-2. Asegúrate de tener MongoDB en ejecución en tu sistema.
-3. Ejecuta el notebook `clean_preprocess_fire.ipynb` para realizar el preprocesamiento de los datos.
-4. Ejecuta el notebook `Proyecto_NoSQL_IntiLuna.ipynb` para realizar inserción, creación de índices y consultas.
+The data is modeled using documents in MongoDB, allowing for variable data and flexible schemas. The documents represent fire detection records and include information on coordinates, intensity, satellite, and other relevant fields.
 
-## Estructura de los Datos
+## Contributions
 
-Los datos se modelan utilizando documentos en MongoDB, lo que permite manejar datos variables y esquemas flexibles. Los documentos representan registros de detección de incendios e incluyen información sobre coordenadas, intensidad, satélite y otros campos relevantes.
-
-## Contribuciones
-
-¡Las contribuciones son bienvenidas! Si tienes sugerencias de mejoras, correcciones de errores o deseas agregar nuevas funcionalidades, no dudes en enviar una "pull request".
+Contributions are welcome! If you have suggestions for improvements, bug fixes, or want to add new features, feel free to submit a pull request.
